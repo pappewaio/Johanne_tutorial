@@ -5,13 +5,13 @@ hello_phrase <- function(){
 
 # Use input argument
 hello_phrase_with_argument <- function(x,y){
-    toprint <- paste("hej ", x, "have you met ", y, sep="")
+    toprint <- paste("hej ", x, " have you met ", y, sep="")
     print(toprint)
 }
 
 # It is very important with a descriptive name for a function
 greeting_introduction <- function(x,y){
-    toprint <- paste("hej ", x, "have you met ", y, sep="")
+    toprint <- paste("hej ", x, " have you met ", y, sep="")
     toprint
 }
 

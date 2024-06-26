@@ -5,6 +5,7 @@ source("R/utils.R")
 # run functions
 hello_phrase()
 hello_phrase_with_argument("jesper", "johanne")
+hello_phrase_with_argument("thomas", "joeri")
 
 # We can now introuce a number of people 
 p1 <- c("Jesper","Morten","Kajsa")
@@ -16,7 +17,8 @@ greeting_introduction(p1,p2)
 
 # for loop version
 for (i in 1:length(p1)){
-  greeting_introduction(p1[i],p2[i])
+  a <-greeting_introduction(p1[i],p2[i])
+print(a)
 }
 
 # some other examples of for loops
